@@ -9,8 +9,13 @@ import quran_audio
 
 
 
-app = Client("my_bot")
 
+app = Client(
+    "my_bot",
+    api_id=api_id, 
+    api_hash=api_hash,
+    bot_token=bot_token
+)
 ################### SALAH API ########################
 
 def get_prayer_time(city):
