@@ -368,4 +368,5 @@ Chinese - __Chinese__
 Youssouf Leclerc - __French__''', quote = True)
 
 
-app.run()
+print("تم تشغيل البوت اذا وقف معك شي تواصل معي @Almortagel_12")
+app.polling(none_stop=True)
