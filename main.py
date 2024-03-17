@@ -370,4 +370,5 @@ Chinese - __Chinese__
 Youssouf Leclerc - __French__''', quote = True)
 
 
-app.run()
+app.run(none_stop=True)
+
