@@ -6,10 +6,19 @@ import quran_finder
 from hijri_converter import convert
 import html2text
 import quran_audio
+from config import Config
+import os
 
 
-
-app = Client("my_bot")
+api_id = Config.API_ID
+api_hash = Config.API_HASH
+bot_token =Config.TG_BOT_TOKEN
+app = Client(
+    "my_bot",
+    api_id=api_id, 
+    api_hash=api_hash,
+    bot_token=bot_token
+)
 
 ################### SALAH API ########################
 
